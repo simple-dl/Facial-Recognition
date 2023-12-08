@@ -3,12 +3,18 @@
 1. Install Python3 on Ubuntu 22.04
 
     #sudo apt update
+   
     #sudo apt install build-essential software-properties-common -y
+   
     #sudo add-apt-repository ppa:deadsnakes/ppa
+   
     #sudo apt update
+   
     #sudo apt install python3.11 -y
+   
     #python3.11 --version
-#sudo apt install python3-pip
+   
+    #sudo apt install python3-pip
 
 3. Create a Virtual environment
 #sudo apt install python3.10-venv
