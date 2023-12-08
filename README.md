@@ -1,6 +1,7 @@
 # The main function of this script is to simultaneously recognize the faces of two passengers captured by the ZED camera, and to conduct facial emotion recognition based on the captured faces. During this process, Opencv's GPU support and Tensorflow's GPU acceleration are used to achieve better real-time analysis results with the pretrained model.
 
 1. Install Python3 on Ubuntu 22.04
+
     #sudo apt update
     #sudo apt install build-essential software-properties-common -y
     #sudo add-apt-repository ppa:deadsnakes/ppa
@@ -9,15 +10,15 @@
     #python3.11 --version
 #sudo apt install python3-pip
 
-2. Create a Virtual environment
+3. Create a Virtual environment
 #sudo apt install python3.10-venv
 #python3 -m venv myenv
 #source myenv/bin/activate
 
-3. Install OpenCV with CPU support
+4. Install OpenCV with CPU support
 #pip install opencv-python
 
-4. Install NVIDIA-driver
+5. Install NVIDIA-driver
 #sudo add-apt-repository ppa:graphics-drivers/ppa
 #sudo apt-get update
 #sudo ubuntu-drivers autoinstall
@@ -28,10 +29,10 @@ Delete, or Esc during boot-up, depending on your motherboard manufacturer.
     #c.Disable Secure Boot and then save and exit the BIOS.
 #nvidia-smi
 
-5. Install OpenCV with CPU supported
+6. Install OpenCV with CPU supported
 #pip install opencv-python
 
-6. Install TensorFlow with GPU supported
+7. Install TensorFlow with GPU supported
 #pip install --upgrade pip
 #pip install tensorflow[and-cuda]
 
